@@ -55,10 +55,10 @@ mappings:
   - ['r', 'SHIFT-6']
   - ['t', 'SHIFT-7']
   - ['y', 'SHIFT-8']
-  - ['u', 'SHIFT-9']
   - ['i', 'SHIFT-0']
   - ['o', 'SHIFT-3']
   - ['p', 'SHIFT-4']
+  - ['b', 'SHIFT-6']
 
   # math symbols/punctuation
   - ['z', '`']
@@ -68,6 +68,7 @@ mappings:
   - ['n', 'SHIFT-8']
   - ['m', '=']
   - ['p', 'p'] # Colemak specific. If using qwerty, set p equal to ;
+  - ['u', 'SHIFT-hyphen']
 
   # system
   - ['[', delete_forward]

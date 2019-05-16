@@ -68,6 +68,7 @@ mappings:
   - ['v', '-']
   - ['n', 'p'] # Colemak specific. If using qwerty, set n equal to ;
   - ['m', '=']
+  - ['b', 'SHIFT-hyphen']
 
   # system
   - ['[', delete_forward]
