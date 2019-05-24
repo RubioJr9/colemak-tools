@@ -1,0 +1,63 @@
+---
+title: 'Right Directional Layer'
+description: 'Right Directional Layer [Quote as Trigger Key]'
+version: 1.0
+author: tpat
+extend-modifier: quote
+keyboard: qwerty
+mappings:
+    # number row
+    # - ['`', 'CMD-s']  # user custom - save example
+    - ['1', f1]
+    - ['2', f2]
+    - ['3', f3]
+    - ['4', f4]
+    - ['5', f5]
+    - ['6', f6]
+    - ['7', f7]
+    - ['8', f8]
+    - ['9', f9]
+    - ['0', f10]
+    - ['-', f11]
+    - ['=', f12]
+    # system
+    - [p, esc]
+    - [']', ins]
+    - [space, return]
+    - [v, delete_forward]
+    - [c, delete]
+    - [return, CMD-SHIFT-3]
+    - ["'", menu]
+    - [l, CMD]
+    - [j, CTRL]
+    - [k, SHIFT]
+    - [;, OPT]
+    - [delete, return]
+    - [esc, caps_lock]
+    # navigation
+    - [t, pgup]
+    - [g, pgdn]
+    - [e, home]
+    - [r, end]
+    - [d, up]
+    - [a, left]
+    - [s, down]
+    - [f, right]
+    - [backslash, CMD-z]
+    - ['.', CMD-x]
+    - ["'", CMD-c]
+    - [m, CMD-v]
+    - [u, 'CMD-[']  # browser back
+    - [i, 'CMD-]']  # browser forward
+    # mouse
+    # - [w, mouse_scroll_up]
+    # - [r, mouse_scroll_down]
+    # - [g, mouse_move_up]
+    # - [d, mouse_move_down]
+    # - [b, mouse_click_left]
+    # - [k, mouse_click_middle]
+    # - [m, mouse_click_right]
+    # - [',', mouse_move_left]
+    # - [., mouse_move_right]
+    # - [/, mouse_scroll_right]
+    # - [\, mouse_scroll_left]

@@ -1,0 +1,44 @@
+---
+title: 'Symbols Layer'
+description: 'Symbols Layer [Left Option as Trigger Key]'
+version: 1.0
+author: tpat
+extend-modifier: left_option
+keyboard: qwerty
+mappings:
+
+  # top row
+  - ['q', 'SHIFT-[']
+  - ['w', 'SHIFT-]']
+  - ['e', '[']
+  - ['r', ']']
+  - ['t', 'SHIFT-3']
+  - ['y', 'SHIFT-7']
+  - ['u', 'SHIFT-9']
+  - ['i', 'SHIFT-0']
+  - ['o', 'SHIFT-,']
+  - ['p', 'SHIFT-.']
+
+  # home row
+  - ['a', 'SHIFT-1']
+  - ['s', '-']
+  - ['d', '=']
+  - ['f', 'SHIFT-hyphen']
+  - ['g', 'SHIFT-`']
+  - ['h', 'SHIFT-backslash']
+  - ['j', 'p'] # change to ; for actual qwerty
+  - ['k', 'SHIFT-p'] # change to ; for actual qwerty
+  - ['l', "SHIFT-'"]
+  - [';', "'"]
+
+  # bottom row
+  - ['z', 'SHIFT-2']
+  - ['x', 'SHIFT-4']
+  - ['c', '/']
+  - ['v', 'backslash']
+  - ['b', 'SHIFT-5']
+  - ['n', 'SHIFT-6']
+  - ['m', 'SHIFT-8']
+  - [',', 'SHIFT-=']
+  - ['.', 'SHIFT-/']
+  - ['/', '`']

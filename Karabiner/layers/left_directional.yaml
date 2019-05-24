@@ -1,0 +1,64 @@
+---
+title: 'Left Directional Layer'
+description: 'Left Directional Layer [Caps Lock as Trigger Key]'
+version: 1.0
+author: tpat
+extend-modifier: caps_lock
+keyboard: qwerty
+mappings:
+    # number row
+    # - ['`', 'CMD-s']  # user custom - save example
+    - ['1', f1]
+    - ['2', f2]
+    - ['3', f3]
+    - ['4', f4]
+    - ['5', f5]
+    - ['6', f6]
+    - ['7', f7]
+    - ['8', f8]
+    - ['9', f9]
+    - ['0', f10]
+    - ['-', f11]
+    - ['=', f12]
+    # system
+    - [q, esc]
+    - ['[', esc]
+    - [']', ins]
+    - [space, return]
+    - [',', delete_forward]
+    - [m, delete]
+    - [return, CMD-SHIFT-3]
+    - ["'", menu]
+    - [a, CMD]
+    - [s, CTRL]
+    - [d, SHIFT]
+    - [f, OPT]
+    - [delete, return]
+    - [esc, caps_lock]
+    # navigation
+    - [y, pgup]
+    - [h, pgdn]
+    - [u, home]
+    - [i, end]
+    - [l, up]
+    - [j, left]
+    - [k, down]
+    - [;, right]
+    - [z, CMD-z]
+    - [x, CMD-x]
+    - [c, CMD-c]
+    - [v, CMD-v]
+    - [e, 'CMD-[']  # browser back
+    - [r, 'CMD-]']  # browser forward
+    # mouse
+    # - [w, mouse_scroll_up]
+    # - [r, mouse_scroll_down]
+    # - [g, mouse_move_up]
+    # - [d, mouse_move_down]
+    # - [b, mouse_click_left]
+    # - [k, mouse_click_middle]
+    # - [m, mouse_click_right]
+    # - [',', mouse_move_left]
+    # - [., mouse_move_right]
+    # - [/, mouse_scroll_right]
+    # - [\, mouse_scroll_left]

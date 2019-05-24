@@ -1,0 +1,75 @@
+---
+title: 'Numbers/Symbols Extend Layer(Personal)'
+description: 'Numbers/Symbols Extend Mode [Right Command as Trigger Key]'
+version: 1.0
+author: tpat
+extend-modifier: right_command
+keyboard: qwerty
+mappings:
+  - ['a', '1']
+  - ['s', '2']
+  - ['d', '3']
+  - ['f', '4']
+  - ['g', '5']
+  - ['h', '6']
+  - ['j', '7']
+  - ['k', '8']
+  - ['l', '9']
+  - [';', '0']
+
+  # number shift symbols
+  - ['q', 'SHIFT-1']
+  - ['w', 'SHIFT-2']
+  - ['e', 'SHIFT-9']
+  - ['r', 'SHIFT-0']
+  - ['t', 'SHIFT-5']
+  - ['y', 'SHIFT-6']
+  - ['u', 'SHIFT-7']
+  - ['i', 'SHIFT-3']
+  - ['o', 'SHIFT-4']
+
+  # math symbols/punctuation
+  - ['z', '`']
+  - ['x', 'SHIFT-`']
+  - ['c', 'SHIFT-=']
+  - ['v', '-']
+  - ['m', '=']
+
+  # system
+  - ['[', delete_forward]
+  - ["'", delete]
+  - ['s', '2']
+  - ['d', '3']
+  - ['f', '4']
+  - ['g', '5']
+  - ['h', '6']
+  - ['j', '7']
+  - ['k', '8']
+  - ['l', '9']
+  - [';', '0']
+
+  # number shift symbols
+  - ['q', 'SHIFT-1']
+  - ['w', 'SHIFT-2']
+  - ['e', 'SHIFT-5']
+  - ['r', 'SHIFT-6']
+  - ['t', 'SHIFT-7']
+  - ['y', 'SHIFT-8']
+  - ['i', 'SHIFT-0']
+  - ['o', 'SHIFT-3']
+  - ['p', 'SHIFT-4']
+  - ['b', 'SHIFT-6']
+
+  # math symbols/punctuation
+  - ['z', '`']
+  - ['x', '~']
+  - ['c', 'SHIFT-=']
+  - ['v', '-']
+  - ['n', 'SHIFT-8']
+  - ['m', '=']
+  - ['p', 'p'] # Colemak specific. If using qwerty, set p equal to ;
+  - ['u', 'SHIFT-hyphen']
+
+  # system
+  - ['[', delete_forward]
+  - ["'", delete]
