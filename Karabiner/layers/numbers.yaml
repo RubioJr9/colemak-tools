@@ -4,8 +4,23 @@ description: 'Numbers Layer [Right Command as Trigger Key]'
 version: 1.0
 author: tpat
 extend-modifier: right_command
+extend-alone-action: OPT
 keyboard: qwerty
 mappings:
+
+  # top row
+  - ['e', 'SHIFT-[']
+  - ['r', 'SHIFT-]']
+  - ['o', '[']
+  - ['p', ']']
+  - ['t', 'SHIFT-3']
+  - ['y', 'SHIFT-5']
+  - ['u', 'SHIFT-9']
+  - ['i', 'SHIFT-0']
+  - ['q', 'SHIFT-,']
+  - ['w', 'SHIFT-.']
+
+  # home row
   - ['a', '1']
   - ['s', '2']
   - ['d', '3']
@@ -17,16 +32,14 @@ mappings:
   - ['l', '9']
   - [';', '0']
 
-  # number shift symbols
-  - ['e', 'SHIFT-8']
-  - ['r', '/']
-  - ['u', 'SHIFT-9']
-  - ['i', 'SHIFT-0']
-
-  # math symbols/punctuation
-  - ['x', 'SHIFT-4']
-  - ['c', '-']
-  - ['v', 'SHIFT-=']
-  - ['n', 'SHIFT-6']
-  - ['m', '=']
-
+  # bottom row
+  - ['z', 'SHIFT-4'] # $
+  - ['x', hyphen]    # @
+  - ['c', 'SHIFT-8'] # *
+  - ['v', 'SHIFT-='] # +
+  - ['b', 'SHIFT-`'] # ~
+  - ['n', 'SHIFT-6'] # ^
+  - ['m', '=']       # =
+  - [',', '/']       # /
+  - ['.', '.']       # .
+  - ['/', ',']       # ,

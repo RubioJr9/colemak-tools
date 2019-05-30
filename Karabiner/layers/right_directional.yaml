@@ -4,6 +4,7 @@ description: 'Right Directional Layer [Quote as Trigger Key]'
 version: 1.0
 author: tpat
 extend-modifier: quote
+extend-alone-action: OPT
 keyboard: qwerty
 mappings:
     # number row
@@ -28,10 +29,10 @@ mappings:
     - [c, delete]
     - [return, CMD-SHIFT-3]
     - ["'", menu]
-    - [l, CMD]
-    - [j, CTRL]
-    - [k, SHIFT]
-    - [;, OPT]
+    - [;, CMD]
+    - [",", CTRL]
+    - [l, SHIFT]
+    - [k, OPT]
     - [delete, return]
     - [esc, caps_lock]
     # navigation
@@ -39,6 +40,7 @@ mappings:
     - [g, pgdn]
     - [e, home]
     - [r, end]
+    - [w, tab]
     - [d, up]
     - [a, left]
     - [s, down]

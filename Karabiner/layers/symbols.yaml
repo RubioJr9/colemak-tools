@@ -4,20 +4,21 @@ description: 'Symbols Layer [Left Option as Trigger Key]'
 version: 1.0
 author: tpat
 extend-modifier: left_option
+extend-alone-action: OPT
 keyboard: qwerty
 mappings:
 
   # top row
-  - ['q', 'SHIFT-[']
-  - ['w', 'SHIFT-]']
-  - ['e', '[']
-  - ['r', ']']
+  - ['e', 'SHIFT-[']
+  - ['r', 'SHIFT-]']
+  - ['o', '[']
+  - ['p', ']']
   - ['t', 'SHIFT-3']
-  - ['y', 'SHIFT-7']
+  - ['y', 'SHIFT-5']
   - ['u', 'SHIFT-9']
   - ['i', 'SHIFT-0']
-  - ['o', 'SHIFT-,']
-  - ['p', 'SHIFT-.']
+  - ['q', 'SHIFT-,']
+  - ['w', 'SHIFT-.']
 
   # home row
   - ['a', 'SHIFT-1']
@@ -32,13 +33,13 @@ mappings:
   - [';', "'"]
 
   # bottom row
-  - ['z', 'SHIFT-2']
-  - ['x', 'SHIFT-4']
-  - ['c', '/']
-  - ['v', 'backslash']
-  - ['b', 'SHIFT-5']
-  - ['n', 'SHIFT-6']
-  - ['m', 'SHIFT-8']
-  - [',', 'SHIFT-=']
-  - ['.', 'SHIFT-/']
-  - ['/', '`']
+  - ['z', 'SHIFT-4']   # $
+  - ['x', 'SHIFT-2']   # @
+  - ['c', 'SHIFT-8']   # *
+  - ['v', 'SHIFT-=']   # +
+  - ['b', 'SHIFT-7']   # &
+  - ['n', 'SHIFT-6']   # ^
+  - ['m', 'backslash'] # \
+  - [',', '/']         # /
+  - ['.', 'SHIFT-/']   # .
+  - ['/', '`']         # ,

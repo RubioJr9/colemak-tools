@@ -4,6 +4,7 @@ description: 'Left Directional Layer [Caps Lock as Trigger Key]'
 version: 1.0
 author: tpat
 extend-modifier: caps_lock
+extend-alone-action: OPT
 keyboard: qwerty
 mappings:
     # number row
@@ -30,9 +31,9 @@ mappings:
     - [return, CMD-SHIFT-3]
     - ["'", menu]
     - [a, CMD]
-    - [s, CTRL]
-    - [d, SHIFT]
-    - [f, OPT]
+    - [s, SHIFT]
+    - [d, OPT]
+    # - [f, OPT]
     - [delete, return]
     - [esc, caps_lock]
     # navigation
@@ -40,16 +41,17 @@ mappings:
     - [h, pgdn]
     - [u, home]
     - [i, end]
+    - [o, tab]
     - [l, up]
     - [j, left]
     - [k, down]
     - [;, right]
-    - [z, CMD-z]
-    - [x, CMD-x]
-    - [c, CMD-c]
-    - [v, CMD-v]
-    - [e, 'CMD-[']  # browser back
-    - [r, 'CMD-]']  # browser forward
+    # - [z, CMD-z]
+    - [x, CTRL]
+    # - [c, CMD-c]
+    # - [v, CMD-v]
+    - [w, 'CMD-[']  # browser back
+    - [e, 'CMD-]']  # browser forward
     # mouse
     # - [w, mouse_scroll_up]
     # - [r, mouse_scroll_down]
